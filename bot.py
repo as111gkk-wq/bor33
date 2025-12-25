@@ -3,8 +3,8 @@ from telebot import types
 import os
 
 # جلب التوكن من إعدادات Render (البيانات المحفوضة)
-TOKEN = os.getenv('BOT_TOKEN')
-bot = telebot.TeleBot(TOKEN)
+TOKEN = os.etenv('BOT_TOKEN')
+bot = telebot.bot = t(8299064937:AAEpvoZDD9u3yiZtyHqVqHVziihGk-IdPDc)
 
 # أمر /start مع أزرار
 @bot.message_handler(commands=['start'])
